@@ -1,5 +1,5 @@
 set wshshell = wscript.CreateObject("wscript.shell")
-a=Array("sabbir668")
+  a=Array("FB_USER_NAME","FB_USER_NAME2")
 for each x in a
 wshshell.run "fb_only"
 wscript.sleep 500
@@ -16,7 +16,7 @@ WshShell.Sendkeys x
 wscript.sleep 500
 WshShell.Sendkeys "{TAB}"
 wscript.sleep 500
-WshShell.Sendkeys "10101997S@bbir"
+  WshShell.Sendkeys "FB_PASS"
 wscript.sleep 500
 WshShell.Sendkeys "{TAB}"
 wscript.sleep 500
